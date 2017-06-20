@@ -1,0 +1,85 @@
+ADDON Brick_Large_Cubes
+ADDON Light_Basic
+ADDON Player_No_Jet
+ADDON Print_1x2f_Default
+ADDON Print_2x2f_Default
+ADDON Weapon_Gun
+ADDON Weapon_Rocket_Launcher
+
+ADDON Weapon_Package_Tier1
+ADDON Weapon_Package_Tier1A
+ADDON Weapon_Package_Tier2
+ADDON Weapon_Package_Tier2A
+ADDON Weapon_Package_Explosive1
+ADDON Weapon_Package_Explosive2
+ADDON Weapon_Package_Medic1
+
+ADDON Weapon_Skins_Bullpup
+ADDON Weapon_Skins_Dualies
+ADDON Weapon_Skins_LMG
+ADDON Weapon_Skins_Magnum
+ADDON Weapon_Skins_MPistol
+ADDON Weapon_Skins_Pistol
+ADDON Weapon_Skins_Rifles
+ADDON Weapon_Skins_RiflesT2
+ADDON Weapon_Skins_Shotgun
+ADDON Weapon_Skins_ShotgunT2
+ADDON Weapon_Skins_SMG
+ADDON Weapon_Skins_Sniper
+
+ADDON GameMode_Borg
+
+$MiniGame::Enabled 1
+$MiniGame::RespawnTime -1
+$MiniGame::PlayerDataBlockName No-Jet Player
+
+$MiniGame::UseSpawnBricks 1
+$MiniGame::IncludeAllPlayersBricks 1
+
+$MiniGame::FallingDamage 1
+$MiniGame::WeaponDamage 1
+$MiniGame::SelfDamage 1
+$MiniGame::BrickDamage 0
+$MiniGame::VehicleDamage 0
+
+$MiniGame::StartEquipName0 Pistol
+$MiniGame::StartEquipName1 0
+$MiniGame::StartEquipName2 0
+$MiniGame::StartEquipName3 0
+$MiniGame::StartEquipName4 0
+
+$EnvGuiServer::SimpleMode 0
+$EnvGuiServer::SkyFile Add-Ons/Sky_Halloween/halloween.dml
+$EnvGuiServer::WaterFile NONE
+$EnvGuiServer::GroundFile Add-Ons/Ground_Plate/plate.ground
+
+$EnvGuiServer::SunFlareTopTexture base/lighting/corona.png
+$EnvGuiServer::SunFlareBottomTexture base/lighting/corona.png
+$EnvGuiServer::DayOffset 
+$EnvGuiServer::DayLength 300
+$EnvGuiServer::DayCycleEnabled 0
+$EnvGuiServer::DayCycle Add-Ons/DayCycle_Default/default.daycycle
+$EnvGuiServer::SunAzimuth 135
+$EnvGuiServer::SunElevation 20
+$EnvGuiServer::DirectLightColor 0.150000 0.052000 0.020000 1.000000
+$EnvGuiServer::AmbientLightColor 0.100000 0.000000 0.000000 1.000000
+$EnvGuiServer::ShadowColor 0.000000 0.000000 0.000000 1.000000
+$EnvGuiServer::SunFlareColor 0.200000 0.100000 0.000000 1.000000
+$EnvGuiServer::SunFlareSize 1
+$EnvGuiServer::VisibleDistance 600
+$EnvGuiServer::FogDistance 250
+$EnvGuiServer::FogHeight 
+$EnvGuiServer::FogColor 0.352941 0.239216 0.000000 1.000000
+$EnvGuiServer::WaterColor 255 255 255 128
+$EnvGuiServer::WaterHeight 5
+$EnvGuiServer::UnderWaterColor 0 0 128 128
+$EnvGuiServer::SkyColor 1.0 1.0 1.0 1.0
+$EnvGuiServer::WaterScrollX 0
+$EnvGuiServer::WaterScrollY 0
+$EnvGuiServer::GroundColor 0 128 64 255
+$EnvGuiServer::GroundScrollX 0
+$EnvGuiServer::GroundScrollY 0
+$EnvGuiServer::VignetteMultiply 0
+$EnvGuiServer::VignetteColor 0.000000 0.000000 0.000000 0.392157
+
+$Server::WelcomeMessage \c2Welcome to Borg DM, %1.
